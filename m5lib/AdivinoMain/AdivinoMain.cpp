@@ -15,7 +15,8 @@ int main()
 
         if (opcion == "1")
         {
-            std::cout << "¡A JUGAR!" << std::endl;
+            system(cls);
+            std::cout << "Â¡A JUGAR!" << std::endl;
             Adivino::adiv::adivino();
         }
         else if (opcion == "2")
@@ -24,7 +25,7 @@ int main()
             std::cout << "Se trata de un juego de HISTORIA, en el que tu eres el PROTAGONISTA." << std::endl;
             std::cout << "Tu OBJETIVO llegar al FINAL." << std::endl;
 
-            // Preguntar si desea volver al menú principal
+            // Preguntar si desea volver al menÃº principal
             std::string volver;
             std::cout << "Desea volver al menu principal? (S/N): ";
             std::cin >> volver;
