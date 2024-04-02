@@ -15,7 +15,7 @@ int main()
 
         if (opcion == "1")
         {
-            system(cls);
+            system("cls");
             std::cout << "¡A JUGAR!" << std::endl;
             Adivino::adiv::adivino();
         }
